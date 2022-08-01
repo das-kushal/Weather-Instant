@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRteHUuwPqQi_ZZ_jOOXe6J2TRdOUZKV7hkag&usqp=CAU"
+      type="image/png"
+    />
+    <title>Weather Instant</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search" value="" />
+        <button class="search-btn">
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            height="1.4em"
+            width="1.4em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+              clip-rule="evenodd"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="weather loader">
+        <h2 class="city"></h2>
+        <h1 class="temp"></h1>
+        <div class="flexbox">
+          <img src="" alt="" class="icon" />
+          <div class="description"></div>
+        </div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+      </div>
+    </div>
+
+    <div class="tags"></div>
+    <script src="./script.js" type="text/javascript" defer></script>
+  </body>
+</html>
